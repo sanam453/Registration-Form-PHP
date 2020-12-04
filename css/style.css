@@ -1,0 +1,46 @@
+*, *::after, *::before { margin: 0; padding: 0; box-sizing: border-box;}
+
+body {
+    background-image: url('../img/copy.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h2 {
+    color: #C58699;
+}
+
+.main {
+    background-color: rgba(250, 250, 250, 0.2);
+    padding: 50px;
+    width: 40% !important;
+    margin: 50px auto;
+    border: 2px solid rgb(240, 240, 240);
+    border-radius: 25px;
+}
+
+.form-group .form-control {
+    padding-left: 2.375rem;
+    height: 48px !important;
+}
+
+.form-group .form-control-icon {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.395rem;
+    height: 2.395rem;
+    line-height: 3.20rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.btn {
+    background-color: #C58699;
+    color: #ffffff;
+    
+}
